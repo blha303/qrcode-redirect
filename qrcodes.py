@@ -54,7 +54,8 @@ def lookupQR():
       <input type="file" name="file">
       <input type="submit" value="Upload">
     </form>
-    <script src="http://gist-it.appspot.com/github/blha303/qrcode-redirect/blob/master/README.md?slice=4:8"></script>""")
+    <h3>Usage</h3>
+    <p>Upload a QR code with a URL in it, you'll get redirected. If the QR code isn't a URL, you'll be sent to Zxing's decode page so you can see what's actually in the QR code.</p>""")
 
 app.run(host='0.0.0.0', port=7578, debug=True)
 
