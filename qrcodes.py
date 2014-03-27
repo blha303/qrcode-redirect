@@ -53,7 +53,8 @@ def lookupQR():
     <form action="" method="POST" enctype="multipart/form-data">
       <input type="file" name="file">
       <input type="submit" value="Upload">
-    </form>""")
+    </form>
+    <script src="http://gist-it.appspot.com/github/blha303/qrcode-redirect/blob/master/README.md?slice=4:8"></script>""")
 
 app.run(host='0.0.0.0', port=7578, debug=True)
 
