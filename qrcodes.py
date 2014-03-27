@@ -21,6 +21,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 response_template = """<!doctype html>
+<html>
   <head>
     <title>QR URL redirect</title>
   </head>
