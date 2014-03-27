@@ -15,7 +15,7 @@ or
 * `venv/bin/pip install -r requirements.txt`
 * Edit config.json to point to 1. the web-accessible directory you'll be saving uploaded files, 2. this directory's web access path. Don't worry about changing extensions, unless you need to.
 * `venv/bin/python qrcodes.py`. If it tells you to create the upload directory, make sure you do that (and check that it's web accessible)
-* Open a browser, go to [http://<ip of server>:7578](http://qr.blha303.biz)
+* Open a browser, go to [http://\<ip of server\>:7578](http://qr.blha303.biz)
 
 This should work with any browser; if you find one where it doesn't work, [create an issue and I'll have a look](https://github.com/blha303/qrcode-redirect/issues).
 
