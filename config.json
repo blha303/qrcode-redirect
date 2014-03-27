@@ -1,0 +1,5 @@
+{
+"upload_dest": "/var/www/qr_tmp/",
+"upload_web_access": "http://blha303.com.au/qr_tmp/",
+"extensions": ["png", "jpg", "gif"]
+}
